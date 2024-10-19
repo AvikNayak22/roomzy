@@ -1,7 +1,14 @@
+import RoomCard from "@/components/RoomCard";
+import rooms from "@/data/rooms.json";
+
 export default function Home() {
   return (
     <>
-      <h1>Roomzy</h1>
+      {rooms.length > 0 ? (
+        rooms.map((room) => <RoomCard key={room.$id} room={room} />)
+      ) : (
+        <p>No rooms available at the moment.</p>
+      )}
     </>
   );
 }
