@@ -10,7 +10,7 @@
     "address": "1, Ashoka Road, New Delhi, 110001",
     "amenities": "Projector, Whiteboard, Video Conferencing, Wi-Fi, Sound System",
     "availability": "9 AM - 5 PM",
-    "price_per_hour": 3500,
+    "price_per_hour": 4500,
     "image": "room-1.jpg"
   },
   {
@@ -24,7 +24,7 @@
     "address": "Nariman Point, Mumbai, Maharashtra 400021",
     "amenities": "Conference Phone, Whiteboard, Wi-Fi",
     "availability": "8 AM - 6 PM",
-    "price_per_hour": 4500,
+    "price_per_hour": 4000,
     "image": "room-2.jpg"
   },
   {
@@ -38,7 +38,7 @@
     "address": "100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038",
     "amenities": "Whiteboard, Television, Wi-Fi",
     "availability": "10 AM - 4 PM",
-    "price_per_hour": 5000,
+    "price_per_hour": 3000,
     "image": "room-3.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "address": "Sector 5, Salt Lake City, Kolkata, West Bengal 700091",
     "amenities": "Projector, Computers, Wi-Fi",
     "availability": "9 AM - 6 PM",
-    "price_per_hour": 3000,
+    "price_per_hour": 3500,
     "image": "room-4.jpg"
   },
   {
