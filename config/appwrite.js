@@ -7,10 +7,6 @@ const createAdminClient = async () => {
     .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT) // Your project ID
     .setKey(process.env.NEXT_APPWRITE_KEY);
 
-  if (session) {
-    client.setSession(session);
-  }
-
   return {
     get account() {
       return new Account(client);
@@ -28,6 +24,10 @@ const createSessionClient = async (session) => {
   const client = new Client()
     .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT) // Your API Endpoint
     .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT); // Your project ID
+
+  if (session) {
+    client.setSession(session);
+  }
 
   return {
     get account() {
