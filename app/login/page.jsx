@@ -2,16 +2,25 @@
 
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useFormState } from "react-dom";
 import { useEffect } from "react";
 import createSession from "../actions/createSession";
+import { toast } from "react-toastify";
 
 const LoginPage = () => {
   const [state, formAction] = useFormState(createSession, {});
 
+  const router = useRouter();
+
   useEffect(() => {
     if (state.error) {
-      console.log(state.error);
+      toast.error(state.error);
+    }
+
+    if (state.success) {
+      toast.success("Logged in successfully");
+      router.push("/");
     }
   }, [state]);
 
