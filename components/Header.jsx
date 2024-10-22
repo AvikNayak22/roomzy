@@ -28,13 +28,13 @@ const Header = () => {
                   Rooms
                 </Link>
                 <Link
-                  href="/bookings.html"
+                  href="/bookings"
                   className="rounded-md px-4 py-2 text-sm font-semibold text-gray-700 transition duration-300 hover:bg-emerald-500 hover:text-white"
                 >
                   Bookings
                 </Link>
                 <Link
-                  href="/add-room.html"
+                  href="/rooms/add"
                   className="rounded-md px-4 py-2 text-sm font-semibold text-gray-700 transition duration-300 hover:bg-emerald-500 hover:text-white"
                 >
                   Add Room
@@ -45,25 +45,25 @@ const Header = () => {
           <div className="ml-auto">
             <div className="ml-4 flex items-center md:ml-6 space-x-4">
               <Link
-                href="login.html"
+                href="/login"
                 className="text-gray-700 transition duration-300 hover:text-emerald-500"
               >
                 <FaSignInAlt className="inline mr-2 text-lg" /> Login
               </Link>
               <Link
-                href="register.html"
+                href="/register"
                 className="text-gray-700 transition duration-300 hover:text-emerald-500"
               >
                 <FaUser className="inline mr-2 text-lg" /> Register
               </Link>
               <Link
-                href="my-rooms.html"
+                href="/rooms/my"
                 className="text-gray-700 transition duration-300 hover:text-emerald-500"
               >
                 <FaBuilding className="inline mr-2 text-lg" /> My Rooms
               </Link>
               <Link
-                href="login.html"
+                href="/login"
                 className="text-gray-700 transition duration-300 hover:text-emerald-500"
               >
                 <FaSignOutAlt className="inline mr-2 text-lg" /> Sign Out
@@ -82,13 +82,13 @@ const Header = () => {
             Rooms
           </Link>
           <Link
-            href="/bookings.html"
+            href="/bookings"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-emerald-500 hover:text-white"
           >
             Bookings
           </Link>
           <Link
-            href="/add-room.html"
+            href="/rooms/add"
             className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-emerald-500 hover:text-white"
           >
             Add Room
